@@ -52,6 +52,12 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
+          <li><a class="nav-link scrollto"><i class="bx bx-sun"></i> <span><label class="switch">
+            <input type="checkbox" id="toggleTheme">
+            <span class="slider round"></span>
+          </label></span>&nbsp&nbsp<i class="bx bx-moon"></i></a></li>
+          
+            
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class='bx bx-code-block'></i></i> <span>Skills</span></a>
@@ -571,7 +577,9 @@
               <img src="assets/img/activities/hsn1.jpg" class="img-fluid" alt="">
               <div class="details">
                 <h3>Hari Sukan Negara 2016</h3>
-                <p>A nationwide sports event aimed at promoting a healthy lifestyle. I was part of the basketball tournament during the event, which not only fostered unity and camaraderie but also helped to refine my skills in the game.</p>
+                <p>A nationwide sports event aimed at promoting a healthy lifestyle. I was part of the basketball
+                  tournament during the event, which not only fostered unity and camaraderie but also helped to refine
+                  my skills in the game.</p>
                 <a href="assets/img/activities/hsncert.jpg" class="btn btn-outline-primary">View
                   Certification</a>
               </div>
@@ -585,7 +593,9 @@
               <img src="assets/img/activities/unitygames.jpg" class="img-fluid" alt="">
               <div class="details">
                 <h3>Unity Games 2016</h3>
-                <p>I participated in the Unity Games, an event that underscored the importance of collaboration and sportsmanship. I played in the basketball tournament, demonstrating teamwork and contributing to the overall spirit of unity in the games.</p>
+                <p>I participated in the Unity Games, an event that underscored the importance of collaboration and
+                  sportsmanship. I played in the basketball tournament, demonstrating teamwork and contributing to the
+                  overall spirit of unity in the games.</p>
                 <a href="assets/img/activities/unitygamescert.jpg" class="btn btn-outline-primary">View
                   Certification</a>
               </div>
@@ -599,7 +609,9 @@
               <img src="assets/img/activities/mss.jpg" class="img-fluid" alt="">
               <div class="details">
                 <h3>Kejohanan Bola Keranjang MSS Bahagian Miri (Peringkat Daerah 2013)</h3>
-                <p>I was part of the MSS Bahagian Miri District Level Basketball Championship. The tournament was a thrilling journey, fostering teamwork and sharpening my skills on the court. The experiences I gathered from this competition have been invaluable.</p>
+                <p>I was part of the MSS Bahagian Miri District Level Basketball Championship. The tournament was a
+                  thrilling journey, fostering teamwork and sharpening my skills on the court. The experiences I
+                  gathered from this competition have been invaluable.</p>
                 <a href="assets/img/activities/msscert.jpg" class="btn btn-outline-primary">View
                   Certification</a>
               </div>
@@ -693,6 +705,8 @@
 
       </div>
     </section><!-- End Contact Section -->
+    </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br> </br>
+    </br> </br> </br> </br> </br>
 
   </main><!-- End #main -->
 
@@ -718,6 +732,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- The toggle script -->
+  <script>
+    const toggleTheme = document.querySelector('#toggleTheme');
+
+    toggleTheme.addEventListener('change', function () {
+      document.body.classList.toggle('dark-theme');
+    });
+  </script>
+
 </body>
 
 </html>
