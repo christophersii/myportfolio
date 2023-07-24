@@ -327,6 +327,14 @@ body.dark-theme #projects h3 {
   font-weight: bold;
 }
 
+body.dark-theme #achievements a {
+  color: #fff;
+}
+
+body.dark-theme #achievements h3 {
+  font-weight: bold;
+}
+
 body.dark-theme .contact {
   padding-bottom: 130px;
 }
@@ -714,6 +722,7 @@ section {
 
 #certifications h3 {
   font-weight: bold;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -726,6 +735,20 @@ section {
 
 #projects h3 {
   font-weight: bold;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# projects Details
+--------------------------------------------------------------*/
+
+#achievements a {
+  color: black;
+}
+
+#achievements h3 {
+  font-weight: bold;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -738,6 +761,7 @@ section {
 
 #hobbies h3 {
   font-weight: bold;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -750,6 +774,7 @@ section {
 
 #activities h3 {
   font-weight: bold;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
